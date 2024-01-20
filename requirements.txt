@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+Flask-WTF
+google-cloud-aiplatform
+mysql-connector-python
+bcrypt

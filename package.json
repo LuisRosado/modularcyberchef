@@ -1,0 +1,33 @@
+{
+  "name": "cyberchef",
+  "version": "1.0.0",
+  "description": "Un chat con un chef virtual que puede dar desde recetas basicas hasta planes alimenticios para personas con enfermedades",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "package": "electron-builder"
+  },
+  "keywords": [],
+  "author": "luis",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.1",
+    "electron-builder": "^22.14.13"
+  },
+  "build": {
+    "appId": "com.tuempresa.cyberchef",
+    "icon": "static/img/icon.ico",
+    "productName": "CyberChef",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "dist/**/*",
+      "node_modules/**/*",
+      "main.js"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
