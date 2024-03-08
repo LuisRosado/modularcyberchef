@@ -5,6 +5,7 @@ from flask_cors import CORS
 import mysql.connector
 from mysql.connector import Error
 from config import DATABASE_CONFIG
+from config2 import DATABASE_CONFIG2
 from werkzeug.security import generate_password_hash, check_password_hash
 import userform
 from ia import ChatbotIA
@@ -13,7 +14,16 @@ from ia import ChatbotIA
 app = Flask(__name__)
 
 app.secret_key = 'luguitoo'
-db = mysql.connector.connect(**DATABASE_CONFIG)
+def connect_to_database():
+    try:
+        # Intenta conectarte a la base de datos principal
+        db = mysql.connector.connect(**DATABASE_CONFIG)
+        return db
+    except mysql.connector.Error:
+        db = mysql.connector.connect(**DATABASE_CONFIG2)
+        return db
+
+db = connect_to_database()
 cursor = db.cursor()
 CORS(app)
 
