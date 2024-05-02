@@ -75,11 +75,26 @@ body {
 	cursor: pointer;
 }
 .send_btn{
-	border-radius: 0 15px 15px 0 !important;
+	border-radius: 0 1px 1px 0 !important;
 	background-color: #3b5998 !important;
 	border:0 !important;
 	color: white !important;
 	cursor: pointer;
+}
+.send_btn:focus {
+            outline: none;
+            box-shadow: none;
+}
+.voz_btn{
+	border-radius: 0 15px 5px 0 !important;
+	background-color: #666666 !important;
+	border:0 !important;
+	color: white !important;
+	cursor: pointer;
+}
+.voz_btn:focus {
+            outline: none;
+            box-shadow: none;
 }
 .search_btn{
 	border-radius: 0 15px 15px 0 !important;
