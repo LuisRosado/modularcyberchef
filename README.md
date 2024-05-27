@@ -1,6 +1,10 @@
 # CyberChef - Plataforma de Generación de Recetas Personalizadas
 Bienvenido a CyberChef, una plataforma integral diseñada para proporcionar recomendaciones culinarias personalizadas utilizando algoritmos avanzados y servicios en la nube. Este proyecto tiene como objetivo mejorar la calidad de vida de aquellos que siguen dietas específicas debido a condiciones de salud o preferencias personales.
 
+![Captura de pantalla 2024-02-15 112030](https://github.com/LuisRosado/modularcyberchef/assets/140114139/cf5b86eb-0927-40ec-86b3-3a1a88509d3b)
+
+![Captura de pantalla 2024-02-15 111913](https://github.com/LuisRosado/modularcyberchef/assets/140114139/ec9c5cfe-b1cd-45d0-833b-4689cf3e6700)
+
 # Índice
 1. Descripción del Proyecto
 2. Características
