@@ -27,14 +27,20 @@ Gestión de Usuarios y Seguridad: Sistema de registro y autenticación de usuari
 
 # Tecnologías Utilizadas
 Backend: Python, Flask
+
 Frontend: HTML, CSS, JavaScript
+
 Modelos de Lenguaje: Vertex AI, Vertex Language Models
+
 Base de Datos: Google Cloud SQL
+
 Desarrollo de Escritorio: Electron
+
 Infraestructura en la Nube: Google Cloud
 
 # Contribución
 ¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, sigue estos pasos:
+
 - Realiza un fork del repositorio.
 - Crea una rama nueva (git checkout -b feature/nueva-funcionalidad).
 - Realiza tus cambios y haz commit (git commit -am 'Añadir nueva funcionalidad').
