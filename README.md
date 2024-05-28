@@ -16,9 +16,13 @@ La inspiración para CyberChef surgió de las dificultades que mi abuelito ha ex
 
 # Características
 Sistema Descentralizado: Distribución eficiente de cálculos, tolerancia a fallos y conexión efectiva entre máquinas para una experiencia de usuario coherente y fiable.
+
 Generación de Recetas Personalizadas: Integración de modelos de lenguaje avanzados (Vertex AI y Vertex Language Models) para proporcionar recetas detalladas y adaptadas.
+
 Interfaz de Usuario Amigable: Interfaz intuitiva desarrollada en español utilizando Flask.
+
 Aplicación de Escritorio: Implementación con Electron para una accesibilidad conveniente desde el escritorio.
+
 Gestión de Usuarios y Seguridad: Sistema de registro y autenticación de usuarios con medidas de seguridad robustas.
 
 # Tecnologías Utilizadas
